@@ -12,9 +12,10 @@
     <div class="title"><h1>Welcome to Melanie's calculator.</h1></div>
 
     <div class="search-container">
-      <input type="search" /> <button>go</button>
+      <input type="text" class="user-input"><button class="go-btn">go</button>
     </div>
-
+    <div class="error-container"><p class="error-message invisible">Invalid. Please type a valid expression using numbers and operations (+,-,*,/)</p></div>
+     
     <li class="cool-button-container">
       <ul>
         <button class="bmi-btn cool-btn">BMI</button>
@@ -29,6 +30,7 @@
         <button class="leap-btn cool-btn">Leap Year</button>
       </ul>
     </li>
+    
     <script src="index.js" defer></script>
   </body>
 </html>
