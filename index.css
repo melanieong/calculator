@@ -1,7 +1,34 @@
-.huge{
-    font-size: 10rem;
+.title{
+    margin-top:40px;
+    width: 100%;
+    font-family: "Noto Sans", serif;
+    font-weight: 600px;
+}
+
+h1{
+    width: 100%;
+    text-align: center;
+}
+
+.search-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.cool-button-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
 }
 
 li{
     list-style: none;
+}
+
+.cool-btn{
+    background: whitesmoke;
+    border:1px solid black
 }

@@ -164,6 +164,27 @@ function fibonacci2(n){
     console.log(output);
 }
 
+function addition(a,b){
+    console.log(a+b)
+}
+
+function subtraction(a,b){
+    console.log(a-b)
+}
+
+function multiplication(a,b){
+    console.log(a*b)
+}
+
+function division(a,b){
+    console.log(a/b)
+}
+
+function calculator(a,b,operation){
+    operation(a,b);
+}
+
+
 document.querySelector(".bmi-btn").addEventListener("click",bmiCalculator)
 document.querySelector(".life-btn").addEventListener("click",lifeInWeeks)
 document.querySelector(".love-btn").addEventListener("click",loveCalculator)
