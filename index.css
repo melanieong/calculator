@@ -29,6 +29,10 @@ li{
 }
 
 .cool-btn{
+    width: 200px;
+    height: 30px;
     background: whitesmoke;
-    border:1px solid black
+    border:1px solid black;
+    font-family: "Noto Sans", serif;
+    font-weight: bolder;
 }
